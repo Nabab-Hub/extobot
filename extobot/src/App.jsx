@@ -13,7 +13,6 @@ import ErrorPage from './pages/ErrorPage'
 function App() {
 
   return (
-    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path='/test' element={<Home />} />
@@ -25,7 +24,6 @@ function App() {
           <Route path='/*' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 
