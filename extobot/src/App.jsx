@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/interviewslot1' element={<InterviewQuestions1 />} />
+          <Route path='/test' element={<Home />} />
+          <Route path='/' element={<InterviewQuestions1 />} />
           <Route path='/interviewslot2' element={<InterviewQuestions2 />} />
           <Route path='/interviewslot3' element={<InterviewQuestions3 />} />
           <Route path='/interviewslot4' element={<InterviewQuestions4 />} />
