@@ -16,12 +16,12 @@ function App() {
       <>
         <BrowserRouter>
           <Routes>
-            <Route path='/test' element={<Home />} />
-            <Route path='/' element={<InterviewQuestions1 />} />
-            <Route path='/interviewslot2' element={<InterviewQuestions2 />} />
-            <Route path='/interviewslot3' element={<InterviewQuestions3 />} />
-            <Route path='/interviewslot4' element={<InterviewQuestions4 />} />
-            <Route path='/interviewslot5' element={<InterviewQuestions5 />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/interviews/slot1' element={<InterviewQuestions1 />} />
+            <Route path='/interviews/slot2' element={<InterviewQuestions2 />} />
+            <Route path='/interviews/slot3' element={<InterviewQuestions3 />} />
+            <Route path='/interviews/slot4' element={<InterviewQuestions4 />} />
+            <Route path='/interviews/slot5' element={<InterviewQuestions5 />} />
             <Route path='/*' element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>
