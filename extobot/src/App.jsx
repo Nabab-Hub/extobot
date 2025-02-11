@@ -13,17 +13,19 @@ import ErrorPage from './pages/ErrorPage'
 function App() {
 
   return (
-      <BrowserRouter>
-        <Routes>
-          <Route path='/test' element={<Home />} />
-          <Route path='/' element={<InterviewQuestions1 />} />
-          <Route path='/interviewslot2' element={<InterviewQuestions2 />} />
-          <Route path='/interviewslot3' element={<InterviewQuestions3 />} />
-          <Route path='/interviewslot4' element={<InterviewQuestions4 />} />
-          <Route path='/interviewslot5' element={<InterviewQuestions5 />} />
-          <Route path='/*' element={<ErrorPage />} />
-        </Routes>
-      </BrowserRouter>
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/test' element={<Home />} />
+            <Route path='/' element={<InterviewQuestions1 />} />
+            <Route path='/interviewslot2' element={<InterviewQuestions2 />} />
+            <Route path='/interviewslot3' element={<InterviewQuestions3 />} />
+            <Route path='/interviewslot4' element={<InterviewQuestions4 />} />
+            <Route path='/interviewslot5' element={<InterviewQuestions5 />} />
+            <Route path='/*' element={<ErrorPage />} />
+          </Routes>
+        </BrowserRouter>
+      </>
   );
 }
 
