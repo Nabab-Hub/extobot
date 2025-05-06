@@ -13,8 +13,8 @@ function ExamCrackers() {
   const [questions, setQuestions] = useState([]);
 
   const filteredQuestions = questions.filter(q => 
-    q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    q.answer.toLowerCase().includes(searchQuery.toLowerCase())
+    String(q.question).toLowerCase().includes(searchQuery.toLowerCase()) ||
+    String(q.answer).toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const copyToClipboard = (index, question, options) => {
