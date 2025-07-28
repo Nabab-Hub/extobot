@@ -7,7 +7,7 @@ function Home() {
 
     useEffect(() => {
         const slots = []
-        const no_of_slots = 10;
+        const no_of_slots = 20;
         const colors = ['from-blue-500 to-cyan-400', 'from-red-500 to-pink-400', 'from-purple-500 to-indigo-400', 'from-amber-500 to-yellow-400', 'from-green-500 to-emerald-400', 'from-orange-500 to-red-400']
         for (let slot = 1; slot < no_of_slots+1; slot++) {
             slots.push({
